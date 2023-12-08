@@ -224,9 +224,6 @@ for epoch in tqdm(range(epoch_num)):  # loop over the dataset multiple times
 
     # print(f"Epoch {epoch + 1}, validation loss: {valloss / valTime}")
 
-    if(valloss/valTime <= 0.35):
-        tqdm.write(f"{valloss/valTime}")
-        break
     # train_loss.append(trainloss/trainTime)
     # val_loss.append(valloss/valTime)
 

@@ -58,7 +58,7 @@ for i in range(len(reg)):
 MSE=mean_squared_error(Y,Ypred)
 print('Test MSE=',MSE)
 
-darwRectangle(TestPics, Y, Ypred)           # visualize the prediction
+# darwRectangle(TestPics, Y, Ypred)           # visualize the prediction
 
 for la in (range(len(Ypred))):
     print(f'Output:{Ypred[la]},\t Label:{Y[la]}')

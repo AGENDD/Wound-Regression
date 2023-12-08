@@ -57,7 +57,7 @@ Ypred=reg.predict(X)
 MSE=mean_squared_error(Y,Ypred)
 print('Training MSE=',MSE)
 
-darwRectangle(TestPics, Y, Ypred)
+# darwRectangle(TestPics, Y, Ypred)
 
 for la in (range(len(Ypred))):
     print(f'Output:{Ypred[la]},\t Label:{Y[la]}')
