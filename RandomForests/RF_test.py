@@ -59,6 +59,9 @@ print('Training MSE=',MSE)
 
 darwRectangle(TestPics, Y, Ypred)
 
+for la in (range(len(Ypred))):
+    print(f'Output:{Ypred[la]},\t Label:{Y[la]}')
+
 t2 = time.time()
 print("time is ",t2-t1)
 

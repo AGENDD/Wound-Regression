@@ -61,6 +61,10 @@ print('Test MSE=',MSE)
 
 darwRectangle(TestPics, Y, Ypred)           # visualize the prediction
 
+for la in (range(len(Ypred))):
+    print(f'Output:{Ypred[la]},\t Label:{Y[la]}')
+
+
 t2 = time.time()
 print("time is ",t2-t1)
 
