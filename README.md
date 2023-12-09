@@ -10,11 +10,11 @@ This project contains three folders, corresponding to each model. Some important
 
 \NeuralNetwork
 
-   train.py: training the 
+   train.py: training the model
    
    test.py: testing the model
    
-   Augmentation.py: augment the data
+   Augmentation.py: augmenting the data
    
   (please run the Augmentation.py before the train.py if the "\Training_Aug" folder is empty)
 
@@ -34,7 +34,7 @@ This project contains three folders, corresponding to each model. Some important
    
    test.py: testing the model
 
-All the test results are stored in the "\Test_out" folder.
+All the test results visualization are stored in the "\Test_out" folder.
  
 
  
