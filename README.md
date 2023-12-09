@@ -15,6 +15,10 @@ This project contains three folders, corresponding to each model. Some important
    test.py: testing the model
    
    Augmentation.py: augmenting the data
+
+   neuralNetwork_aug.pth: The model file training on the augmented data
+   
+   neuralNetwork.pth: the model file training on the origional data
    
   (please run the Augmentation.py before the train.py if the "\Training_Aug" folder is empty)
 
@@ -28,11 +32,17 @@ This project contains three folders, corresponding to each model. Some important
   
   RF_train.py: testing the model(RT)
 
+  RT.sav: the saved RandomForests model.
+
+  boostRT.sav: the saved boost RandomForests model.
+
 \SVR
 
    train.py: training the model
    
    test.py: testing the model
+
+   SVR.sav: the saved model.
 
 All the test results visualization are stored in the "\Test_out" folder.
  
